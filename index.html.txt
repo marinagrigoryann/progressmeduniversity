@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Medical University</title>
+    <style>
+        /* Стили CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f8f9fa;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: #007bff;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Progress Medical University</h1>
+    </header>
+    <nav>
+        <a href="#">About us</a>
+        <a href="#">Education</a>
+        <a href="#">News</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section>
+        <h2>Добро пожаловать на наш университет!</h2>
+        <p>Здесь вы можете добавить текст с описанием вашего университета, его истории, миссии и ценностей.</p>
+        <p>Также вы можете разместить информацию о различных программах обучения, факультетах, исследованиях и других академических возможностях.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Название вашего университета. Все права защищены.</p>
+    </footer>
+</body>
+</html>

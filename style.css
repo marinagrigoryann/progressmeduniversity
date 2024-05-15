@@ -1,0 +1,188 @@
+header {
+    display: flex;
+    align-items: center; /* Выравниваем элементы по вертикали */
+}
+
+.logo img {
+    width: 100px; /* Устанавливаем ширину логотипа */
+    height: auto; /* Автоматически подстраиваем высоту */
+    margin-right: 400px; /* Добавляем отступ между логотипом и названием */
+}
+
+
+
+.container {
+    display: flex; /* Используем flexbox для размещения элементов в строку */
+    align-items: center; /* Выравниваем элементы по вертикали по центру */
+    box-shadow: 0 8px 16px 0 rgba(90, 89, 89, 0.2);
+}
+
+.container .text {
+    margin-left: 20px;
+}
+
+
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-left: 20px; /* Отступ слева для размещения текста рядом с изображением */
+    margin-right: 20px; /* Отступ слева для размещения текста рядом с изображением */
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
+
+.text1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-left: 20px; /* Отступ слева для размещения текста рядом с изображением */
+    margin-right: 20px; /* Отступ слева для размещения текста рядом с изображением */
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+}
+
+img {
+    max-width: 100%; /* Чтобы изображение не выходило за пределы родительского контейнера */
+    height: auto; /* Автоматическое подстраивание высоты */
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+
+h1{
+   
+    text-align: center; /* Выравниваем заголовок по центру */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align: center; /* Выравниваем заголовок по центру */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Welcome{
+    text-align: center; /* Выравниваем заголовок по центру */
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    font-size: xx-large;
+}
+
+
+
+.main {
+    background-color: #ffffff;
+    padding: 20px;
+    opacity: 0.9;
+}
+
+
+
+.contact
+{
+    color: white;
+text-align: center;
+background-color: rgb(14, 14, 90);
+padding-bottom: 2%;
+font-family: 'Times New Roman', Times, serif;
+font-size:larger;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.mission-image {
+    padding: 1%;
+}
+
+header {
+    background-color: #1f5c9d;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    background-color: #edf3fa;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 10px;
+}
+section {
+    padding: 20px;
+}
+footer {
+    background-color: #1f5c9d;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.card-container {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    color:rgb(54, 54, 54);
+    flex-flow: row wrap;
+    background-color: #f4f4f4;
+    opacity: 0.9;
+    justify-content: center;
+  }
+
+  .texts {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .card {
+    display:grid;
+    transition: 0.3s;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5%;
+    padding: 0.5em;
+    flex: 0 0 calc(33.33% - 20px);
+    width: 300px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #ffffff;
+    margin: 1pc;
+  }
+
+
+  .card-title {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .card-content {
+    font-size: 1rem;
+    color: #555;
+  }
+  .card-image {
+    width: 70%;
+    border-radius: 8px;
+    margin-top: 10px;
+    
+  }
+
+
+  .card:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.contact {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.karta{
+  max-width: 100%; /* Максимальная ширина изображения равна ширине контейнера */
+    height: auto; /* Автоматически рассчитывает высоту изображения, чтобы сохранить соотношение сторон */
+}
