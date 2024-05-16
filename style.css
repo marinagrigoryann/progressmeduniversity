@@ -2,17 +2,10 @@
 @media only screen and (max-width: 600px) {
     /* Установите стили, подходящие для мобильных устройств */
     header {
-        text-align: center;
     }
 
     .logo img {
         width: 100px; /* Пример ширины логотипа на мобильных устройствах */
-    }
-
-
-    nav a {
-        display: block;
-        margin-bottom: 10px;
     }
 
     .container {
@@ -21,8 +14,9 @@
 
     
     .text {
-        width: 100%;
+        width: 200%;
         padding: 1px;
+        margin:0%
     }
 
     .col {
