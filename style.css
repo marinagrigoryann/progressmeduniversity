@@ -22,7 +22,7 @@
     
     .text {
         width: 100%;
-        padding: 1px;
+        padding: 10px;
     }
 
     .col {
@@ -79,7 +79,7 @@
 }
 
 .text {
-    width: 90%;
+    width: 50%;
     padding: 0 20px;
 }
 
