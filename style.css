@@ -9,16 +9,6 @@
         width: 100px; /* Пример ширины логотипа на мобильных устройствах */
     }
 
-    nav {
-        display: block;
-        text-align: center;
-    }
-
-    nav a {
-        display: block;
-        margin-bottom: 10px;
-    }
-
     .container {
         flex-direction: column;
     }
