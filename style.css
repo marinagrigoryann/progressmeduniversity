@@ -9,12 +9,11 @@
         width: 100px; /* Пример ширины логотипа на мобильных устройствах */
     }
 
-    nav {
+
+    nav a {
         display: block;
-        text-align: center;
+        margin-bottom: 10px;
     }
-
-
 
     .container {
         flex-direction: column;
@@ -23,7 +22,7 @@
     
     .text {
         width: 100%;
-        padding: 10px;
+        padding: 1px;
     }
 
     .col {
