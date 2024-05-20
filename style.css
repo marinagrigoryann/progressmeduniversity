@@ -24,24 +24,7 @@ header h1 {
     font-size: 1.5em;
 }
 
-/* Стили для nav */
-nav {
-    display: flex;
-    justify-content: center;
-    background-color: #333;
-    padding: 10px 0;
-}
 
-nav a {
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 1em;
-}
-
-nav a:hover {
-    background-color: #575757;
-}
 
 /* Основные стили для контейнера */
 .container {
@@ -58,7 +41,7 @@ nav a:hover {
 
 .text, .text1 {
     flex: 1;
-    padding: 20px;
+    padding: 5px;
 }
 
 /* Медиазапросы */
@@ -90,15 +73,6 @@ nav a:hover {
         text-align: center;
     }
 
-    .container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .container img {
-        width: 80%;
-        margin-bottom: 20px;
-    }
 
     .text, .text1 {
         width: 100%;
@@ -122,15 +96,6 @@ nav a:hover {
         text-align: center;
     }
 
-    .container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .container img {
-        width: 90%;
-        margin-bottom: 20px;
-    }
 
     .text, .text1 {
         width: 100%;
@@ -161,7 +126,7 @@ nav a:hover {
 
     .text, .text1 {
         width: 100%;
-        padding: 10px;
+        padding: 5px;
     }
 
     nav a {
