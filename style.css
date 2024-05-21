@@ -1,3 +1,63 @@
+/* Медиазапросы только для текста */
+@media only screen and (max-width: 1200px) {
+    .text, .text1, p {
+        font-size: 1em;
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .text, .text1, p {
+        font-size: 0.95em;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .text, .text1, p {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+
+    nav a {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .text, .text1, p {
+        font-size: 0.85em;
+        padding: 5px;
+    }
+
+    nav a {
+        padding: 8px;
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .text, .text1, p {
+        font-size: 0.8em;
+        padding: 5px;
+    }
+
+    nav a {
+        padding: 6px;
+        font-size: 0.7em;
+    }
+}
+
+
+.text, .text1 {
+    flex: 1;
+    padding: 20px;
+    word-wrap: break-word; /* Разбивать длинные слова */
+}
+
+
+
 /* Общие стили для контейнера и текста */
 .container {
     display: flex;
