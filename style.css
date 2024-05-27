@@ -453,7 +453,9 @@ body {
     margin: 0;
     padding-left: 3%;
     padding-right: 3%;
+    overflow-x: hidden;
 }
+
 
 .mission-image {
     padding: 1%;
