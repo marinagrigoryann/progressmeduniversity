@@ -1,4 +1,41 @@
-/* Медиазапросы только для текста */
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    }
+    
+    .container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    }
+
+    .progress-infra-classroom-2 {
+        max-width: 90%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        }
+    
+    .container .text {
+    text-align: justify;
+    margin-top: 20px;
+    word-wrap: break-word; /* чтобы длинные слова не выходили за пределы */
+    }
+    
+    header h2 {
+    text-align: center;
+    }
+    
+    .horizontal-line {
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+    }
+    
+    
+    /* Медиазапросы только для текста */
 @media only screen and (max-width: 1200px) {
     .text, .text1, p {
         font-size: 1em;
@@ -354,6 +391,7 @@ header {
     margin-left: 20px; /* Отступ слева для размещения текста рядом с изображением */
     margin-right: 20px; /* Отступ слева для размещения текста рядом с изображением */
     box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+    max-width: 90%;
 }
 
 .text1 {
