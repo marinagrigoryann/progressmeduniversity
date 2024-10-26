@@ -1,100 +1,3 @@
-.container {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box;
-    }
-    
-    .container img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    }
-
-    .progress-infra-classroom-2 {
-        max-width: 90%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-        }
-    
-    .container .text {
-    text-align: justify;
-    margin-top: 20px;
-    word-wrap: break-word; /* чтобы длинные слова не выходили за пределы */
-    }
-    
-    header h2 {
-    text-align: center;
-    }
-    
-    .horizontal-line {
-    border-top: 1px solid #ccc;
-    margin: 20px 0;
-    }
-    
-    
-    /* Медиазапросы только для текста */
-@media only screen and (max-width: 1200px) {
-    .text, .text1, p {
-        font-size: 1em;
-        padding: 15px;
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    .text, .text1, p {
-        font-size: 0.95em;
-        padding: 10px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .text, .text1, p {
-        font-size: 0.9em;
-        padding: 10px;
-    }
-
-    nav a {
-        padding: 10px;
-        font-size: 0.9em;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .text, .text1, p {
-        font-size: 0.85em;
-        padding: 5px;
-    }
-
-    nav a {
-        padding: 8px;
-        font-size: 0.8em;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    .text, .text1, p {
-        font-size: 0.8em;
-        padding: 5px;
-    }
-
-    nav a {
-        padding: 6px;
-        font-size: 0.7em;
-    }
-}
-
-
-.text, .text1 {
-    flex: 1;
-    padding: 20px;
-    word-wrap: break-word; /* Разбивать длинные слова */
-}
-
-
-
 /* Общие стили для контейнера и текста */
 .container {
     display: flex;
@@ -145,6 +48,7 @@
     }
     .container img {
         width: 90%; /* Изображения занимают 90% ширины родительского контейнера */
+        margin-right: 15%;
         margin-bottom: 20px;
     }
     .text, .text1 {
@@ -160,7 +64,7 @@
         align-items: center;
     }
     .container img {
-        width: 100%; /* Изображения занимают всю ширину родительского контейнера */
+        width: 90%; /* Изображения занимают всю ширину родительского контейнера */
         margin-bottom: 20px;
     }
     .text, .text1 {
@@ -171,6 +75,10 @@
 
 
 
+.mission-image {
+    width: 100%;
+    height: auto;
+}
 
 /* Медиазапрос для экранов шире 1200px */
 @media only screen and (min-width: 1200px) {
@@ -189,21 +97,23 @@
 /* Медиазапрос для экранов от 768px до 991px */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .mission-image {
-        width: 100%; /* Изображение занимает всю ширину родительского контейнера */
+        width: 97%; /* Изображение занимает всю ширину родительского контейнера */
+        margin-right: 15%;
     }
 }
 
 /* Медиазапрос для экранов от 480px до 767px */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
     .mission-image {
-        width: 100%; /* Изображение занимает всю ширину родительского контейнера */
+        width: 95%; /* Изображение занимает всю ширину родительского контейнера */
+        margin-right: 15%;
     }
 }
 
 /* Медиазапрос для экранов до 479px */
 @media only screen and (max-width: 479px) {
     .mission-image {
-        width: 100%; /* Изображение занимает всю ширину родительского контейнера */
+        width: 90%; /* Изображение занимает всю ширину родительского контейнера */
     }
 }
 
@@ -356,10 +266,6 @@
 
 
 
-
-
-
-
 header {
     display: flex;
     align-items: center; /* Выравниваем элементы по вертикали */
@@ -379,7 +285,6 @@ header {
     box-shadow: 0 8px 16px 0 rgba(90, 89, 89, 0.2);
 }
 
-
 .container .text {
     margin-left: 20px;
 }
@@ -391,7 +296,6 @@ header {
     margin-left: 20px; /* Отступ слева для размещения текста рядом с изображением */
     margin-right: 20px; /* Отступ слева для размещения текста рядом с изображением */
     box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
-    max-width: 90%;
 }
 
 .text1 {
@@ -447,19 +351,19 @@ font-family: 'Times New Roman', Times, serif;
 font-size:larger;
 }
 
+html {
+    overflow-x: hidden;
+}
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding-left: 3%;
     padding-right: 3%;
-    overflow-x: hidden;
 }
-
 
 .mission-image {
     padding: 1%;
-    max-width: 95%;
 }
 
 header {
@@ -528,16 +432,15 @@ footer {
     margin-bottom: 10px;
     text-align: center;
   }
-
   .card-content {
     font-size: 1rem;
     color: #555;
   }
-
   .card-image {
     width: 70%;
     border-radius: 8px;
     margin-top: 10px;
+    
   }
 
 
